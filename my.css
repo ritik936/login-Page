@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 110, 255);
+    text-shadow: 0.1rem 0.1rem 0.7rem rgba(10, 255, 173, 0.829);
+}
+
+.cont{
+    display:flex;
+    flex-direction: column;
+    align-content:space-around;
+    justify-items:center;
+    
+}
+.myform{
+    align-self: center;
+    display: flex;
+}
+.f1{
+    align-self: center;
+   box-shadow: 2px 2px 1rem rgb(43, 247, 236);
+    border: solid none 2px;
+    border-radius: 5%;
+}
+input[type="password"]{
+    display: block;
+    padding-top: 5%;
+    border-bottom: solid 2px rgb(43, 247, 236);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input[type="email"]{
+    display: block;
+    border-top: 0px;
+    padding-top: 5%;
+    border-bottom: solid 2px rgb(43, 247, 236);
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input[type="submit"]{
+    background-color: rgb(10, 255, 112);
+    color: cornsilk;
+    padding : 5px;
+    font-size: 1rem;
+    margin:2.5%;
+    width: 95%;
+    border-radius: 1rem;
+    border:0px;
+}
+input[type="submit"]:hover{
+    /* border: 2px solid green; */
+    background-color: rgb(86, 219, 33);
+}
+#f1_password{
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(14, 24, 165);
+    margin: 2rem;
+}
+#f1_email{
+    padding: 1rem;
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(14, 24, 165);
+}
+label{
+    
+    margin :auto;
+    padding: 1rem ;
+}
